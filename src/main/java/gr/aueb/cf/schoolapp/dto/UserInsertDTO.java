@@ -19,6 +19,9 @@ import java.time.LocalDate;
 @Setter
 public class UserInsertDTO {
 
+    @NotNull(message = "Is active must not be null.")
+    private Boolean isActive;
+
     @NotEmpty(message = "Firstname must not be empty.")
     private String firstname;
 
