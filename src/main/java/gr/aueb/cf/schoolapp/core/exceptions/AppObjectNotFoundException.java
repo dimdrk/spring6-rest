@@ -1,4 +1,4 @@
-package gr.aueb.cf.datatest.core.excpetions;
+package gr.aueb.cf.schoolapp.core.exceptions;
 
 public class AppObjectNotFoundException extends AppGenericException {
     private static final String DEFAULT_CODE = "NotFound";

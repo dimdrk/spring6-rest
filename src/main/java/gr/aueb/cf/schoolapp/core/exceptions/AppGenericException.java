@@ -1,4 +1,4 @@
-package gr.aueb.cf.datatest.core.excpetions;
+package gr.aueb.cf.schoolapp.core.exceptions;
 
 import lombok.Getter;
 
